@@ -70,7 +70,7 @@ public class PrimeiraTela extends JFrame {
         lblFator = new JLabel("Fator RH");
         cmbFator = new JComboBox(FatorRH);
 
-        lblContatoEmergencia = new JLabel("Contato de Emergencia");
+        lblContatoEmergencia = new JLabel("Contato Emergencial");
         txtContatoEmergencia = new JTextField();
 
         lblTel2 = new JLabel("Tefone");
@@ -85,35 +85,35 @@ public class PrimeiraTela extends JFrame {
         btnOK = new JButton("Inserir");
         btnCancel = new JButton("Cancelar");
         ctn.setLayout(null);
-        lblNome.setBounds(0, 0, 100, 25);
-        txtNome.setBounds(150, 0, 200, 25);
+        lblNome.setBounds(20, 0, 100, 25);
+        txtNome.setBounds(150, 0, 210, 25);
 
-        lblEndereco.setBounds(0, 50, 100, 25);
-        txtEndereco.setBounds(150, 50, 200, 25);
+        lblEndereco.setBounds(20, 50, 100, 25);
+        txtEndereco.setBounds(150, 50, 210, 25);
 
-        lblTel.setBounds(0, 100, 100, 25);
-        txtTel.setBounds(150, 100, 200, 25);
+        lblTel.setBounds(20, 100, 100, 25);
+        txtTel.setBounds(150, 100, 210, 25);
 
-        lblCPF.setBounds(0, 150, 100, 25);
-        txtCPF.setBounds(150, 150, 200, 25);
+        lblCPF.setBounds(20, 150, 100, 25);
+        txtCPF.setBounds(150, 150, 210, 25);
 
-        lblTipo.setBounds(0, 200, 200, 25);
+        lblTipo.setBounds(20, 200, 200, 25);
         cmbTipo.setBounds(150, 200, 40, 25);
 
-        lblFator.setBounds(240, 200, 200, 25);
-        cmbFator.setBounds(310, 200, 40, 25);
+        lblFator.setBounds(260, 200, 200, 25);
+        cmbFator.setBounds(320, 200, 40, 25);
 
-        lblCurso.setBounds(0, 250, 200, 25);
-        cmbCurso.setBounds(150, 250, 200, 25);
+        lblCurso.setBounds(20, 250, 200, 25);
+        cmbCurso.setBounds(150, 250, 210, 25);
 
-        lblContatoEmergencia.setBounds(0, 300, 200, 25);
-        txtContatoEmergencia.setBounds(150, 300, 200, 25);
+        lblContatoEmergencia.setBounds(20, 300, 200, 25);
+        txtContatoEmergencia.setBounds(150, 300, 210, 25);
 
-        lblTel2.setBounds(0, 350, 100, 25);
-        txtTel2.setBounds(150, 350, 200, 25);
+        lblTel2.setBounds(20, 350, 100, 25);
+        txtTel2.setBounds(150, 350, 210, 25);
 
-        btnOK.setBounds(150, 400, 100, 50);
-        btnCancel.setBounds(250, 400, 100, 50);
+        btnOK.setBounds(150, 400, 105, 50);
+        btnCancel.setBounds(255, 400, 105, 50);
 
         ctn.add(lblNome);
         ctn.add(txtNome);
