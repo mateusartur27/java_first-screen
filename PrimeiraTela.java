@@ -1,6 +1,6 @@
-import java.awt.Container; //biblioteca para containers
+import java.awt.Container;
 import java.text.ParseException;
-import javax.swing.*; //simplificando a inclusão de bibliotecas
+import javax.swing.*;
 import javax.swing.text.MaskFormatter;
 
 public class PrimeiraTela extends JFrame {
