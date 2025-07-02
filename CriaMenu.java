@@ -20,10 +20,8 @@ public class CriaMenu
     {
         JMenuBar barraMenu = new JMenuBar();
 
-        // Menu principal
         JMenu menu = new JMenu("Menu");
 
-        // Item Cadastro
         JMenuItem menuItem = new JMenuItem("Cadastro", KeyEvent.VK_I);
         menuItem.addActionListener(new ActionListener()
         {
@@ -37,7 +35,6 @@ public class CriaMenu
         });
         menu.add(menuItem);
 
-        // Item Adicionar Consulta
         menuItem = new JMenuItem("Adicionar Consulta", KeyEvent.VK_T);
         menuItem.addActionListener(new ActionListener()
         {
@@ -52,7 +49,6 @@ public class CriaMenu
 
         barraMenu.add(menu);
 
-        // Menu Ajuda
         JMenu menuAjuda = new JMenu("Ajuda");
         JMenuItem itemSobre = new JMenuItem("Sobre");
         itemSobre.addActionListener(new ActionListener() {
